@@ -15,8 +15,11 @@ const COUNTRIES = [
 const parseCSV = (csvText: string): Record<string, string>[] => {
   const lines = csvText.trim().split('\n');
   if (lines.length < 2) return [];
-  
-  const header = lines[0].split(',').map(h => h.trim());
+
+  const normalizeHeader = (header: string) =>
+    header.replace(/\[[^\]]*\]/g, '').replace(/\([^)]*\)/g, '').trim();
+
+  const header = lines[0].split(',').map(h => normalizeHeader(h));
   const rows = lines.slice(1).map(line => {
     const values = line.split(',');
     const rowObject: Record<string, string> = {};
@@ -26,6 +29,15 @@ const parseCSV = (csvText: string): Record<string, string>[] => {
     return rowObject;
   });
   return rows;
+};
+
+const FIELD_KEYS = {
+  plantName: 'Plant name',
+  unitNo: 'Unit No.',
+  type: 'Type',
+  beginBuilding: 'Begin building',
+  commercialOperation: 'Commercial operation',
+  capacity: 'Capacity',
 };
 
 const processRawData = (rawData: Record<string, string>[], countryName: string): ProcessedReactorData[] => {
@@ -38,9 +50,9 @@ const processRawData = (rawData: Record<string, string>[], countryName: string):
   };
 
   for (const row of rawData) {
-    const beginBuilding = cleanDateString(row['Begin building']);
-    const commercialOp = cleanDateString(row['Commercial operation']);
-    const capacityStr = row['Capacity (MW)'];
+    const beginBuilding = cleanDateString(row[FIELD_KEYS.beginBuilding]);
+    const commercialOp = cleanDateString(row[FIELD_KEYS.commercialOperation]);
+    const capacityStr = row[FIELD_KEYS.capacity];
     
     if (!beginBuilding || !commercialOp || !capacityStr || isNaN(parseFloat(capacityStr))) {
       continue;
@@ -61,8 +73,8 @@ const processRawData = (rawData: Record<string, string>[], countryName: string):
 
     processed.push({
       country: countryName.replace(/_/g, ' '),
-      plantName: `${row['Plant name']} ${row['Unit No.']}`,
-      type: row['Type'] || 'Unknown',
+      plantName: `${row[FIELD_KEYS.plantName]} ${row[FIELD_KEYS.unitNo]}`,
+      type: row[FIELD_KEYS.type] || 'Unknown',
       capacityMW,
       constructionStartYear: startDate.getFullYear(),
       constructionTimeYears,
