@@ -1,0 +1,4 @@
+Plant name,Unit No.,Type,Model,Status,Capacity (MW),Begin building,Commercial operation,Closed
+Ignalina,1,LWGR,RBMK-1500,Shut down/in decommissioning,1185,1 May 1977,31 Dec 1983,31 Dec 2004
+Ignalina,2,LWGR,RBMK-1500,Shut down/in decommissioning,1185,1 Jan 1978,Aug 1987,31 Dec 2009
+Ignalina,3,LWGR,RBMK-1500,Unfinished,1185,,,

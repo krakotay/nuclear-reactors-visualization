@@ -1,0 +1,9 @@
+Plant name,Unit No.,Type,Model,Status,Capacity (MW),Begin building,Commercial operation,Closed
+Caorso,1,BWR,BWR-4 Mark2,Shut down/in decommissioning,860,1 Jan 1970,1 Dec 1981,1 Jul 1990
+Enrico Fermi,1,PWR,WH 4-loop,Shut down/in decommissioning,260,1 Jul 1961,1 Jan 1965,1 Jul 1990
+Garigliano,1,BWR,BWR-1,Shut down/in decommissioning,150,1 Nov 1959,1 Jun 1964,1 Mar 1982
+Latina,1,GCR,Magnox,Shut down/in decommissioning,153,1 Nov 1958,1 Jan 1964,1 Dec 1987
+Montalto,1,BWR,,Unfinished,982,1 Jul 1982,,1 Jan 1988
+Montalto,2,BWR,,Unfinished,982,1 Jul 1982,,1 Jul 1988
+Trino 2 [IT],1,PWR,,Unfinished,950,,,23 Dec 1987
+Trino 2 [IT],2,PWR,,Unfinished,950,,,23 Dec 1987

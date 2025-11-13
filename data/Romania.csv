@@ -1,0 +1,6 @@
+Plant name,Unit No.,Type,Model,Status,Capacity (MW),Begin building,Commercial operation,Closed
+Cernavodă,1,PHWR,CANDU-6,Operational,650,31 Mar 1983,2 Dec 1996,
+Cernavodă,2,PHWR,CANDU-6,Operational,650,1 Jul 1983,1 Nov 2007,
+Cernavodă,3,PHWR,CANDU-6,Unfinished; restart planned,650,,,
+Cernavodă,4,PHWR,CANDU-6,Unfinished; restart planned,650,,,
+Cernavodă,5,PHWR,CANDU-6,Unfinished,650,,,

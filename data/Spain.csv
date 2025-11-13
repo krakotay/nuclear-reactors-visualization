@@ -1,0 +1,15 @@
+Plant name,Unit No.,Type,Model,Status,Capacity (MW),Begin building,Commercial operation,Closed
+Almaraz,1,PWR,WH 3 loops,Operational,1011.0,3 Jul 1973,1 Sep 1983,
+Almaraz,2,PWR,WH 3 loops,Operational,1006.0,3 Jul 1973,1 Jul 1984,
+Ascó,1,PWR,WH 3 loops,Operational,995.0,16 May 1974,10 Dec 1984,
+Ascó,2,PWR,WH-3 loops,Operational,997.0,7 Mar 1975,31 Mar 1986,
+Cofrentes,1,BWR,BWR-6,Operational,1064.0,9 Sep 1975,11 Mar 1985,
+José Cabrera,1,PWR,WH 1 loop,Shut down/in decommissioning,141.0,24 Jun 1964,13 Aug 1969,30 Apr 2006
+Lemoniz,1,PWR,,Unfinished,,1972,,1984
+Lemoniz,2,PWR,,Unfinished,,1972,,1984
+Santa María de Garoña,1,BWR,BWR-3,Shut down/in decommissioning,446.0,11 May 1971,15 Feb 1975,6 Jul 2013
+Trillo,1,PWR,KWU 3 loops,Operational,1003.0,17 Aug 1979,6 Aug 1988,
+Valdecaballeros,1,BWR,,Unfinished,,1975,,1984
+Valdecaballeros,2,BWR,,Unfinished,,1975,,1984
+Vandellòs,1,GCR,UNGG,Shut down/in decommissioning,480.0,1967,2 Aug 1972,31 Jul 1990
+Vandellòs,2,PWR,WH 3 loops,Operational,1045.0,29 Dec 1980,8 Mar 1988,

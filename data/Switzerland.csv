@@ -1,0 +1,7 @@
+Plant name,Unit No.,Type,Model,Status,Capacity (MW),Begin building,Commercial operation,Closed[126]
+Beznau,1,PWR,WH 2-loops,Operational,365,1 Sep 1965,1 Sep 1969,(2029)
+Beznau,2,PWR,WH 2-loops,Operational,365,1 Jan 1968,1 Dec 1971,(2031)
+Gösgen,1,PWR,KWU 3-loops,Operational,1010,1 Dec 1973,1 Nov 1979,
+Leibstadt,1,BWR,BWR-6,Operational,1220,1 Jan 1974,15 Dec 1984,
+Lucens,1,HWGCR,HWGCR,Decommissioned,6,1 Apr 1962,29 Dec 1966,21 Jan 1969
+Mühleberg,1,BWR,BWR-4,Shut down/in decommissioning,373,1 Mar 1967,6 Nov 1972,20 Dec 2019

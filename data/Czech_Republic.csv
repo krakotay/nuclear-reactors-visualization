@@ -1,0 +1,9 @@
+Plant name,Unit No.,Type,Model,Status,Capacity (MW),Begin building,Commercial operation,Closed
+Dukovany,1,PWR,VVER-440/V-213,Operational,468,1 Jan 1979,3 May 1985,
+Dukovany,2,PWR,VVER-440/V-213,Operational,471,1 Jan 1979,21 Mar 1986,
+Dukovany,3,PWR,VVER-440/V-213,Operational,468,1 Mar 1979,20 Dec 1986,
+Dukovany,4,PWR,VVER-440/V-213,Operational,471,1 Mar 1979,19 Jul 1987,
+Dukovany,5,PWR,APR-1400,Planned,1200,,,
+Dukovany,6,PWR,APR-1400,Planned,1200,,,
+Temelín,1,PWR,VVER-1000/V-320,Operational,1003,1 Feb 1987,10 Jun 2002,
+Temelín,2,PWR,VVER-1000/V-320,Operational,1003,1 Feb 1987,18 Apr 2003,
