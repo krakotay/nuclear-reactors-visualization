@@ -1,0 +1,39 @@
+Plant name,Unit No.,Type,Model,Status,Capacity (MW),Begin building,Commercial operation,Closed
+Chernobyl,1,LWGR,RBMK-1000,Shut down/in decommissioning,740,1 Mar 1970,27 May 1978,30 Nov 1996
+Chernobyl,2,LWGR,RBMK-1000,Shut down/in decommissioning,925,1 Feb 1973,28 May 1979,11 Oct 1991
+Chernobyl,3,LWGR,RBMK-1000,Shut down/in decommissioning,925,1 Mar 1976,8 Jun 1982,15 Dec 2000
+Chernobyl,4,LWGR,RBMK-1000,Destroyed,925,1 Apr 1979,26 Mar 1984,26 Apr 1986
+Chernobyl,5,LWGR,RBMK-1000,Unfinished,925,,,
+Chernobyl,6,LWGR,RBMK-1000,Unfinished,925,,,
+Chyhyryn[134],1,PWR,AP1000,Planned,1100,,,
+Chyhyryn[134],2,PWR,AP1000,Planned,1100,,,
+Chyhyryn[134],3,PWR,AP1000,Planned,1100,,,
+Chyhyryn[134],4,PWR,AP1000,Planned,1100,,,
+Crimean,1,PWR,VVER-1000,Unfinished,950,26 Jan 1984,,1987
+Crimean,2,PWR,VVER-1000,Unfinished,950,26 Jan 1984,,1987
+Kharkiv,1,PWR,VVER-1000,Unfinished,900,1988,,1990
+Kharkiv,2,PWR,VVER-1000,Unfinished,900,1988,,1990
+Khmelnytskyi,1,PWR,VVER-1000/V-320,Operational,950,1 Nov 1981,13 Aug 1988,
+Khmelnytskyi,2,PWR,VVER-1000/V-320,Operational,950,1 Feb 1985,15 Dec 2005,
+Khmelnytskyi,3,PWR,VVER-1000,Under construction,950,1 Sep 1985,(2026)[135],
+Khmelnytskyi,4,PWR,VVER-1000,Under construction,950,1 Jun 1986,(2027),
+Khmelnytskyi,5,PWR,AP1000,Under construction[136],1100,"April 11, 2024",(2029),
+Khmelnytskyi,6,PWR,AP1000,Under construction[137],1100,"April 11, 2024",(2029),
+Odesa,1,PWR,VVER-1000,Unfinished,900,,,1989
+Odesa,2,PWR,VVER-1000,Unfinished,900,,,1989
+Rivne,1,PWR,VVER-440/V-213,Operational,381,1 Aug 1973,22 Sep 1981,
+Rivne,2,PWR,VVER-440/V-213,Operational,376,1 Oct 1973,29 Jul 1982,
+Rivne,3,PWR,VVER-1000/V-320,Operational,950,1 Feb 1980,16 May 1987,
+Rivne,4,PWR,VVER-1000/V-320,Operational,950,1 Aug 1986,6 Apr 2006,
+Rivne,5,PWR,AP1000,Planned[137],1100,,,
+South Ukraine,1,PWR,VVER-1000/V-302,Operational,950,1 Aug 1976,2 Dec 1983,
+South Ukraine,2,PWR,VVER-1000/V-338,Operational,950,1 Jul 1981,6 Apr 1985,
+South Ukraine,3,PWR,VVER-1000/V-320,Operational,950,1 Nov 1984,29 Dec 1989,
+South Ukraine,4,PWR,AP1000,Planned[137],1100,,,
+Zaporizhzhia,1,PWR,VVER-1000/V-320,Operational,950,1 Apr 1980,25 Dec 1985,
+Zaporizhzhia,2,PWR,VVER-1000/V-320,Operational,950,1 Jan 1981,15 Feb 1986,
+Zaporizhzhia,3,PWR,VVER-1000/V-320,Operational,950,1 Apr 1982,5 Mar 1987,
+Zaporizhzhia,4,PWR,VVER-1000/V-320,Operational,950,1 Apr 1983,14 Apr 1988,
+Zaporizhzhia,5,PWR,VVER-1000/V-320,Operational,950,1 Nov 1985,27 Oct 1989,
+Zaporizhzhia,6,PWR,VVER-1000/V-320,Operational,950,1 Jun 1986,17 Sep 1996,
+Zaporizhzhia,7,PWR,AP1000,Planned,1100,,,

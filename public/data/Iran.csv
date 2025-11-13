@@ -1,0 +1,5 @@
+Plant name,Unit No.,Type,Model,Status,Capacity (MW),Begin building,Commercial operation,Closed
+Bushehr,1,PWR,VVER-1000/V-446,Operational,915,1 May 1975,23 Sep 2013,
+Bushehr,2,PWR,VVER-1000/V-528,Under construction,915,27 Sep 2019,,
+Bushehr,3,PWR,VVER-1000,Planned,915,,,
+Darkhovin,1,PWR,,Unfinished; restart planned,360,,,

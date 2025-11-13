@@ -1,0 +1,41 @@
+Plant name,Unit No.,Type,Model,Status,Capacity (MW),Begin building,Commercial operation,Closed
+AVR,1,HTGR,PBR Prototype,Shut down,13.0,1 Aug 1961,19 May 1969,31 Dec 1988
+Biblis,1,PWR,Siemens-KWU,Shut down/in decommissioning,1167.0,1 Jan 1970,26 Feb 1975,6 Aug 2011
+Biblis,2,PWR,KWU,Shut down/in decommissioning,1240.0,1 Feb 1972,31 Jan 1977,6 Aug 2011
+Brokdorf,1,PWR,KWU,Shut down,1410.0,1 Jan 1976,22 Dec 1986,31 Dec 2021
+Brunsbüttel,1,BWR,BWR-69,Shut down,771.0,15 Apr 1970,9 Feb 1977,6 Aug 2011
+Emsland,1,PWR,Konvoi [de] (KWU),Shut down,1329.0,10 Aug 1982,20 Jun 1988,15 Apr 2023
+Grafenrheinfeld,1,PWR,KWU,Shut down,1275.0,1 Jan 1975,17 Jun 1982,27 Jun 2015
+Greifswald,1,PWR,VVER-440/V-230,Shut down/in decommissioning,408.0,1 Mar 1970,12 Jul 1974,14 Feb 1990
+Greifswald,2,PWR,VVER-440/V-230,Shut down/in decommissioning,408.0,1 Mar 1970,16 Apr 1975,14 Feb 1990
+Greifswald,3,PWR,VVER-440/V-230,Shut down/in decommissioning,408.0,1 Apr 1972,1 May 1978,28 Feb 1990
+Greifswald,4,PWR,VVER-440/V-230,Shut down/in decommissioning,408.0,1 Apr 1972,1 Nov 1979,22 Jul 1990
+Greifswald,5,PWR,VVER-440/V-213,Shut down/in decommissioning,408.0,1 Dec 1976,1 Nov 1989,24 Nov 1989
+Greifswald,6,PWR,VVER-440/V-213,Finished; never entered service,408.0,,,
+Grohnde,1,PWR,KWU,Shut down,1360.0,1 Jun 1976,1 Feb 1985,31 Dec 2021[71]
+Grosswelzheim,1,BWR,BWR,Dismantled,25.0,1 Jan 1965,2 Aug 1970,20 Apr 1971
+Gundremmingen,A,BWR,"GE, BWR-1",Shut down/in decommissioning,237.0,12 Dec 1962,12 Apr 1967,13 Jan 1977
+Gundremmingen,B,BWR,BWR-72 (KWU),Shut down,1284.0,20 Jul 1976,19 Jul 1984,31 Dec 2017[72]
+Gundremmingen,C,BWR,BWR-72 (KWU),Shut down,1288.0,20 Jul 1976,18 Jan 1985,31 Dec 2021[71]
+Isar,1,BWR,BWR-69,Shut down/in decommissioning,878.0,1 May 1972,21 Mar 1979,6 Aug 2011
+Isar,2,PWR,Konvoi [de] (KWU),Shut down,1410.0,15 Sep 1982,9 Apr 1988,15 Apr 2023
+Kahl,1,BWR,BWR,Dismantled,15.0,1 Jul 1958,1 Feb 1962,25 Nov 1985
+SNR-300,1,FBR,,Finished; never entered service,,1972,,1985
+KNK II,1,FBR,,Shut down,17.0,1 Sep 1974,3 Mar 1979,23 Aug 1991
+Krümmel,1,BWR,BWR-69 (KWU),Shut down,1346.0,5 Apr 1974,28 Mar 1984,6 Aug 2011
+Lingen,1,BWR,BWR,Shut down,183.0,1 Oct 1964,1 Oct 1968,5 Jan 1977
+Mülheim-Kärlich,1,PWR,B & W,Shut down/in decommissioning,1219.0,15 Jan 1975,8 Aug 1987,9 Sep 1988
+MZFR,1,PHWR,PHWR,Shut down,52.0,1 Dec 1961,19 Dec 1966,3 May 1984
+Neckarwestheim,1,PWR,KWU,Shut down,785.0,1 Feb 1972,1 Dec 1976,6 Aug 2011
+Neckarwestheim,2,PWR,Konvoi [de] (KWU),Shut down,1310.0,9 Nov 1982,15 Apr 1989,15 Apr 2023
+Niederaichbach,1,HWGCR,Pressure tube reactor,Shut down/decommissioned,100.0,1 Jun 1966,1 Jan 1973,31 Jul 1974
+Obrigheim,1,PWR,Siemens,Shut down/in decommissioning,340.0,15 Mar 1965,31 Mar 1969,11 May 2005
+Philippsburg,1,BWR,BWR-69,Shut down,890.0,1 Oct 1970,26 Mar 1980,6 Aug 2011
+Philippsburg,2,PWR,KWU,Shut down,1402.0,7 Jul 1977,18 Apr 1985,31 Dec 2019[73]
+Rheinsberg,1,PWR,VVER-70,Shut down/in decommissioning,62.0,1 Jan 1960,11 Oct 1966,1 Jun 1990
+Stade,1,PWR,Siemens,Shut down/in decommissioning,640.0,1 Dec 1967,19 May 1972,4 Nov 2003
+Stendal,1,PWR,VVER-1000/V-320,Unfinished,,1983,,1990
+Stendal,2,PWR,VVER-1000/V-320,Unfinished,,1983,,1990
+THTR-300,1,HTGR,PBR,Decommissioned,296.0,3 May 1971,1 Jun 1987,29 Sep 1988
+Unterweser,1,PWR,KWU,Shut down/in decommissioning,1345.0,1 Jul 1972,6 Sep 1979,6 Aug 2011
+Würgassen,1,BWR,BWR-69 (AEG),Shut down/in decommissioning,640.0,26 Jan 1968,11 Nov 1975,26 Aug 1994

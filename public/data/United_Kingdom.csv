@@ -1,0 +1,50 @@
+Plant name,Unit No.,Type,Model,Status,Capacity (MW),Begin building,Commercial operation,Closed
+Berkeley,1,GCR,Magnox,Decommissioned,138.0,1 Jan 1957,12 Jun 1962,31 Mar 1989
+Berkeley,2,GCR,Magnox,Decommissioned,138.0,1 Jan 1957,20 Oct 1962,26 Oct 1988
+Bradwell,1,GCR,Magnox,Decommissioned,123.0,1 Jan 1957,1 Jul 1962,31 Mar 2002
+Bradwell,2,GCR,Magnox,Decommissioned,123.0,1 Jan 1957,12 Nov 1962,30 Mar 2002
+Calder Hall,1,GCR,Magnox,Shut down/in decommissioning,49.0,1 Aug 1953,1 Oct 1956,31 Mar 2003
+Calder Hall,2,GCR,Magnox,Shut down/in decommissioning,49.0,1 Aug 1953,1 Feb 1957,31 Mar 2003
+Calder Hall,3,GCR,Magnox,Shut down/in decommissioning,49.0,1 Aug 1955,1 May 1958,31 Mar 2003
+Calder Hall,4,GCR,Magnox,Shut down/in decommissioning,49.0,1 Aug 1955,1 Apr 1959,31 Mar 2003
+Chapelcross,1,GCR,Magnox,Shut down/in decommissioning,48.0,1 Oct 1955,1 Mar 1959,29 Jun 2004
+Chapelcross,2,GCR,Magnox,Shut down/in decommissioning,48.0,1 Oct 1955,1 Aug 1959,29 Jun 2004
+Chapelcross,3,GCR,Magnox,Shut down/in decommissioning,48.0,1 Oct 1955,1 Dec 1959,29 Jun 2004
+Chapelcross,4,GCR,Magnox,Shut down/in decommissioning,48.0,1 Oct 1955,1 Mar 1960,29 Jun 2004
+Dounreay,1,SFR,DFR,Shut down/in decommissioning,11.0,1 Mar 1955,1 Oct 1962,1 Mar 1977
+Dounreay,2,SFR,PFR,Shut down/in decommissioning,234.0,1 Jan 1966,1 Jul 1976,31 Mar 1994
+Dungeness A,A-1,GCR,Magnox,Shut down/in decommissioning,225.0,1 Jul 1960,28 Oct 1965,31 Dec 2006
+Dungeness A,A-2,GCR,Magnox,Shut down/in decommissioning,225.0,1 Jul 1960,30 Dec 1965,31 Dec 2006
+Dungeness B,B-1,GCR,AGR,Shut down,520.0,1 Oct 1965,1 Apr 1985,7 Jun 2021
+Dungeness B,B-2,GCR,AGR,Shut down,520.0,1 Oct 1965,1 Apr 1989,7 Jun 2021
+Hartlepool,1,GCR,AGR,Operational,595.0,1 Oct 1968,1 Apr 1989,(2027)[142]
+Hartlepool,2,GCR,AGR,Operational,585.0,1 Oct 1968,1 Apr 1989,(2027)[142]
+Heysham,A-1,GCR,AGR,Operational,585.0,1 Dec 1970,1 Apr 1989,(2027)[142]
+Heysham,A-2,GCR,AGR,Operational,575.0,1 Dec 1970,1 Apr 1989,(2027)[142]
+Heysham,B-1,GCR,AGR,Operational,610.0,1 Aug 1980,1 Apr 1989,(2030)[142]
+Heysham,B-2,GCR,AGR,Operational,610.0,1 Aug 1980,1 Apr 1989,(2030)[142]
+Hinkley Point A,1,GCR,Magnox,Shut down/in decommissioning,235.0,1 Nov 1957,30 Mar 1965,23 May 2000
+Hinkley Point A,2,GCR,Magnox,Shut down/in decommissioning,235.0,1 Nov 1957,5 May 1965,23 May 2000
+Hinkley Point B,1,GCR,AGR,Shut down/in decommissioning,435.0,1 Sep 1967,2 Oct 1978,1 Aug 2022[143]
+Hinkley Point B,2,GCR,AGR,Shut down/in decommissioning,435.0,1 Sep 1967,27 Sep 1976,6 Jul 2022[144]
+Hinkley Point C,1,PWR,EPR,Under construction,1600.0,11 Dec 2018,(2029)[15],
+Hinkley Point C,2,PWR,EPR,Under construction,1600.0,12 Dec 2019,(2030)[15],
+Hunterston A,1,GCR,Magnox,Shut down/in decommissioning,150.0,1 Oct 1957,5 Feb 1964,30 Mar 1990
+Hunterston A,2,GCR,Magnox,Shut down/in decommissioning,150.0,1 Oct 1957,1 Jul 1964,31 Dec 1989
+Hunterston B,1,GCR,AGR,Shut down,460.0,1 Nov 1967,6 Feb 1976,26 Nov 2021
+Hunterston B,2,GCR,AGR,Shut down,460.0,1 Nov 1967,31 Mar 1977,7 Jan 2022[145]
+Oldbury,1,GCR,Magnox,Shut down/in decommissioning,217.0,1 May 1962,31 Dec 1967,29 Feb 2012
+Oldbury,2,GCR,Magnox,Shut down/in decommissioning,217.0,1 May 1962,30 Sep 1968,30 Jun 2011
+Sizewell A,1,GCR,Magnox,Shut down/in decommissioning,210.0,1 Apr 1961,25 Mar 1966,31 Dec 2006
+Sizewell A,2,GCR,Magnox,Shut down/in decommissioning,210.0,1 Apr 1961,15 Sep 1966,31 Dec 2006
+Sizewell B,1,PWR,WH SNUPPS,Operational,1191.0,18 Jul 1988,22 Sep 1995,(2035)
+Sizewell C,1,PWR,EPR,Planned,1600.0,(2025),,
+Sizewell C,2,PWR,EPR,Planned,1600.0,(2025),,
+Torness,1,GCR,AGR,Operational,595.0,1 Aug 1980,25 May 1988,(2030)[142]
+Torness,2,GCR,AGR,Operational,595.0,1 Aug 1980,3 Feb 1989,(2030)[142]
+Trawsfynydd,1,GCR,Magnox,Shut down/in decommissioning,195.0,1 Jul 1959,24 Mar 1965,6 Feb 1991
+Trawsfynydd,2,GCR,Magnox,Shut down/in decommissioning,195.0,1 Jul 1959,24 Mar 1965,4 Feb 1991
+Winfrith[146],1,SGHWR,SGHWR,Shut down/in decommissioning,92.0,1 May 1963,1 Jan 1968,11 Sep 1990
+Wylfa,1,GCR,Magnox,Shut down/in decommissioning,490.0,1 Sep 1963,1 Nov 1971,30 Dec 2015
+Wylfa,2,GCR,Magnox,Shut down/in decommissioning,490.0,1 Sep 1963,3 Jan 1972,25 Apr 2012
+Wylfa,3,PWR,SMR[147],Planned,,,,

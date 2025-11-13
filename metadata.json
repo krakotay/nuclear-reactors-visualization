@@ -1,0 +1,5 @@
+{
+  "name": "Nuclear Reactor Construction Visualizer",
+  "description": "A web application to visualize the construction time of nuclear reactors using a scatter plot, with options to filter by country, reactor type, and visualization mode.",
+  "requestFramePermissions": []
+}
