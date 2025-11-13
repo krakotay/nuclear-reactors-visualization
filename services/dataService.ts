@@ -76,6 +76,7 @@ const processRawData = (rawData: Record<string, string>[], countryName: string):
 
 
 
+
 export const loadReactorData = async (): Promise<ProcessedReactorData[]> => {
   try {
     const allDataPromises = COUNTRIES.map(async (country) => {
