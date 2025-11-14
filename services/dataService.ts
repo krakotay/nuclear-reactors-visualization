@@ -42,6 +42,7 @@ const FIELD_KEYS = {
 
 const processRawData = (rawData: Record<string, string>[], countryName: string): ProcessedReactorData[] => {
   const processed: ProcessedReactorData[] = [];
+  const monthYearFormatter = new Intl.DateTimeFormat('en', { month: 'short', year: 'numeric' });
 
   const cleanDateString = (dateStr: string | undefined): string => {
     if (!dateStr) return '';
@@ -77,6 +78,7 @@ const processRawData = (rawData: Record<string, string>[], countryName: string):
       type: row[FIELD_KEYS.type] || 'Unknown',
       capacityMW,
       constructionStartYear: startDate.getFullYear(),
+      constructionEndDate: monthYearFormatter.format(endDate),
       constructionTimeYears,
       constructionTimePerGW,
     });

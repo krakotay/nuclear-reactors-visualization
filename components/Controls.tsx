@@ -52,7 +52,7 @@ const RadioButton: React.FC<{ id: string; name: string; value: string; checked: 
 );
 
 
-const Controls: React.FC<ControlsProps> = ({
+const ControlsComponent: React.FC<ControlsProps> = ({
   countries,
   selectedCountries,
   onCountriesChange,
@@ -155,5 +155,7 @@ const Controls: React.FC<ControlsProps> = ({
     </div>
   );
 };
+
+const Controls = React.memo(ControlsComponent);
 
 export default Controls;

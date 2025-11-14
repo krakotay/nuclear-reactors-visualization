@@ -5,6 +5,7 @@ export interface ProcessedReactorData {
   type: string;
   capacityMW: number;
   constructionStartYear: number;
+  constructionEndDate: string;
   constructionTimeYears: number;
   constructionTimePerGW: number;
 }

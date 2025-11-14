@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect, useMemo } from 'react';
+import React, { useState, useEffect, useMemo, useCallback, useTransition } from 'react';
 import { ProcessedReactorData, VisualizationMode, ColoringMode } from './types';
 import { loadReactorData } from './services/dataService';
 import Header from './components/Header';
@@ -23,6 +23,7 @@ const App: React.FC = () => {
   // Color state
   const [typeColorMap, setTypeColorMap] = useState<Record<string, string>>(REACTOR_TYPE_COLORS);
   const [countryColorMap, setCountryColorMap] = useState<Record<string, string>>({});
+  const [, startTransition] = useTransition();
 
   useEffect(() => {
     const fetchData = async () => {
@@ -68,10 +69,15 @@ const App: React.FC = () => {
     });
   }, [countries]);
 
-  const handleColorChange = (key: string, color: string) => {
+  const handleColorChange = useCallback((key: string, color: string) => {
     const setter = coloringMode === ColoringMode.TYPE ? setTypeColorMap : setCountryColorMap;
-    setter(prev => ({ ...prev, [key]: color }));
-  };
+    startTransition(() => {
+        setter(prev => {
+            if (prev[key] === color) return prev;
+            return { ...prev, [key]: color };
+        });
+    });
+  }, [coloringMode, startTransition]);
 
   const activeColorMap = coloringMode === ColoringMode.TYPE ? typeColorMap : countryColorMap;
 

@@ -22,6 +22,7 @@ const CustomTooltip: React.FC<CustomTooltipProps> = ({ active, payload, label })
         <p className="text-gray-700">Country: <span className="font-medium">{data.country}</span></p>
         <p className="text-gray-700">Capacity: <span className="font-medium">{data.capacityMW.toLocaleString()} MW</span></p>
         <p className="text-gray-700">Start Year: <span className="font-medium">{data.constructionStartYear}</span></p>
+        <p className="text-gray-700">End Date: <span className="font-medium">{data.constructionEndDate}</span></p>
         <p className="text-gray-700">Construction: <span className="font-medium">{data.constructionTimeYears.toFixed(2)} years</span></p>
       </div>
     );
