@@ -4,11 +4,17 @@ import React from 'react';
 interface CustomTooltipProps {
   active?: boolean;
   payload?: any[];
+  label?: string | number;
 }
 
-const CustomTooltip: React.FC<CustomTooltipProps> = ({ active, payload }) => {
+const CustomTooltip: React.FC<CustomTooltipProps> = ({ active, payload, label }) => {
   if (active && payload && payload.length) {
-    const data = payload[0].payload;
+    const labelYear = typeof label === 'string' ? Number(label) : label;
+    const matchingEntry = payload.find(entry => {
+      const entryYear = entry.payload?.constructionStartYear;
+      return labelYear !== undefined && labelYear === entryYear;
+    });
+    const data = matchingEntry?.payload || payload[0].payload;
     return (
       <div className="bg-white text-gray-900 p-3 rounded-md shadow-lg border border-gray-200 opacity-95 text-sm">
         <p className="font-bold text-md mb-1">{data.plantName}</p>

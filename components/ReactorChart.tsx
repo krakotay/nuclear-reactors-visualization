@@ -117,17 +117,21 @@ const ReactorChart: React.FC<ReactorChartProps> = ({ data, mode, colorBy, colorM
         <ZAxis type="number" dataKey="capacityMW" range={[30, 400]} name="Capacity (MW)" />
         <Tooltip cursor={{ strokeDasharray: '3 3' }} content={<CustomTooltip />} />
         <Legend content={<CustomLegend onColorChange={onColorChange} />} verticalAlign="bottom" wrapperStyle={{ bottom: -10 }}/>
-        {Object.entries(dataByGroup).map(([key, groupData]) => (
-          <Scatter 
-            key={key} 
-            name={key} 
-            data={groupData} 
-            fill={colorMap[key] || '#6b7280'} 
-            shape="circle"
-            stroke="#1f2937"
-            strokeWidth={0.5}
-          />
-        ))}
+        {Object.entries(dataByGroup).map(([key, groupData]) => {
+          const dataKey = `${colorBy}-${key}`;
+          return (
+            <Scatter 
+              key={dataKey} 
+              dataKey={dataKey}
+              name={key} 
+              data={groupData} 
+              fill={colorMap[key] || '#6b7280'} 
+              shape="circle"
+              stroke="#1f2937"
+              strokeWidth={0.5}
+            />
+          );
+        })}
       </ScatterChart>
     </ResponsiveContainer>
   );

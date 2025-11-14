@@ -12,11 +12,11 @@ Greifswald,3,PWR,VVER-440/V-230,Shut down/in decommissioning,408.0,1 Apr 1972,1 
 Greifswald,4,PWR,VVER-440/V-230,Shut down/in decommissioning,408.0,1 Apr 1972,1 Nov 1979,22 Jul 1990
 Greifswald,5,PWR,VVER-440/V-213,Shut down/in decommissioning,408.0,1 Dec 1976,1 Nov 1989,24 Nov 1989
 Greifswald,6,PWR,VVER-440/V-213,Finished; never entered service,408.0,,,
-Grohnde,1,PWR,KWU,Shut down,1360.0,1 Jun 1976,1 Feb 1985,31 Dec 2021[71]
+Grohnde,1,PWR,KWU,Shut down,1360.0,1 Jun 1976,1 Feb 1985,31 Dec 2021
 Grosswelzheim,1,BWR,BWR,Dismantled,25.0,1 Jan 1965,2 Aug 1970,20 Apr 1971
 Gundremmingen,A,BWR,"GE, BWR-1",Shut down/in decommissioning,237.0,12 Dec 1962,12 Apr 1967,13 Jan 1977
-Gundremmingen,B,BWR,BWR-72 (KWU),Shut down,1284.0,20 Jul 1976,19 Jul 1984,31 Dec 2017[72]
-Gundremmingen,C,BWR,BWR-72 (KWU),Shut down,1288.0,20 Jul 1976,18 Jan 1985,31 Dec 2021[71]
+Gundremmingen,B,BWR,BWR-72 (KWU),Shut down,1284.0,20 Jul 1976,19 Jul 1984,31 Dec 2017
+Gundremmingen,C,BWR,BWR-72 (KWU),Shut down,1288.0,20 Jul 1976,18 Jan 1985,31 Dec 2021
 Isar,1,BWR,BWR-69,Shut down/in decommissioning,878.0,1 May 1972,21 Mar 1979,6 Aug 2011
 Isar,2,PWR,Konvoi [de] (KWU),Shut down,1410.0,15 Sep 1982,9 Apr 1988,15 Apr 2023
 Kahl,1,BWR,BWR,Dismantled,15.0,1 Jul 1958,1 Feb 1962,25 Nov 1985
@@ -31,7 +31,7 @@ Neckarwestheim,2,PWR,Konvoi [de] (KWU),Shut down,1310.0,9 Nov 1982,15 Apr 1989,
 Niederaichbach,1,HWGCR,Pressure tube reactor,Shut down/decommissioned,100.0,1 Jun 1966,1 Jan 1973,31 Jul 1974
 Obrigheim,1,PWR,Siemens,Shut down/in decommissioning,340.0,15 Mar 1965,31 Mar 1969,11 May 2005
 Philippsburg,1,BWR,BWR-69,Shut down,890.0,1 Oct 1970,26 Mar 1980,6 Aug 2011
-Philippsburg,2,PWR,KWU,Shut down,1402.0,7 Jul 1977,18 Apr 1985,31 Dec 2019[73]
+Philippsburg,2,PWR,KWU,Shut down,1402.0,7 Jul 1977,18 Apr 1985,31 Dec 2019
 Rheinsberg,1,PWR,VVER-70,Shut down/in decommissioning,62.0,1 Jan 1960,11 Oct 1966,1 Jun 1990
 Stade,1,PWR,Siemens,Shut down/in decommissioning,640.0,1 Dec 1967,19 May 1972,4 Nov 2003
 Stendal,1,PWR,VVER-1000/V-320,Unfinished,,1983,,1990

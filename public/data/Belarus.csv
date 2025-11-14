@@ -1,5 +1,5 @@
 Plant name,Unit No.,Type,Model,Status,Capacity (MW),Begin building,Commercial operation,Closed
-Ostrovets,1,PWR,VVER-1200/V-491,Operational,1109,6 Nov 2013,10 Jun 2021[11],
-Ostrovets,2,PWR,VVER-1200/V-491,Operational,1109,24 Apr 2014,1 Nov 2023[12],
+Ostrovets,1,PWR,VVER-1200/V-491,Operational,1109,6 Nov 2013,10 Jun 2021,
+Ostrovets,2,PWR,VVER-1200/V-491,Operational,1109,24 Apr 2014,1 Nov 2023,
 Minsk,1,PWR,VVER-1000,Unfinished,963,1983,,1987.0
 Minsk,2,PWR,VVER-1000,Unfinished,963,1983,,1987.0

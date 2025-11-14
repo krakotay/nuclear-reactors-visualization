@@ -1,10 +1,10 @@
 Plant name,Unit No.,Type,Model,Status,Capacity (MW),Begin building,Commercial operation,Closed
-Bohunice,A-1[112],HWGCR,KS 150,Decommissioned,93,1 Aug 1958,25 Dec 1972,22 Feb 1977
-Bohunice,1[113],PWR,VVER-440/V-230,Shut down,408,24 Apr 1972,1 Apr 1980,31 Dec 2006
+Bohunice,A-1,HWGCR,KS 150,Decommissioned,93,1 Aug 1958,25 Dec 1972,22 Feb 1977
+Bohunice,1,PWR,VVER-440/V-230,Shut down,408,24 Apr 1972,1 Apr 1980,31 Dec 2006
 Bohunice,2,PWR,VVER-440/V-230,Shut down,408,24 Apr 1972,1 Jan 1981,31 Dec 2008
 Bohunice,3,PWR,VVER-440/V-213,Operational,472,1 Dec 1976,14 Feb 1985,(2045)
 Bohunice,4,PWR,VVER-440/V-213,Operational,471,1 Dec 1976,18 Dec 1985,(2045)
 Mochovce,1,PWR,VVER-440 V-213,Operational,436,13 Oct 1983,29 Oct 1998,(2058)
 Mochovce,2,PWR,VVER-440/V-213,Operational,436,13 Oct 1983,11 Apr 2000,(2060)
-Mochovce,3,PWR,VVER-440/V-213,Operational,440,27 Jan 1987,17 Oct 2023[114],
+Mochovce,3,PWR,VVER-440/V-213,Operational,440,27 Jan 1987,17 Oct 2023,
 Mochovce,4,PWR,VVER-440/V-213,Under construction,440,27 Jan 1987,,

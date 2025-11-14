@@ -1,7 +1,7 @@
-Plant name,Unit No.,Type,Model,Status,Capacity (MW)[64],Begin building,Commercial operation,Closed
-Hanhikivi,1,PWR,VVER-1200/V-491,Cancelled,1200,(2023),(2029),2 May 2022[65][66]
+Plant name,Unit No.,Type,Model,Status,Capacity (MW),Begin building,Commercial operation,Closed
+Hanhikivi,1,PWR,VVER-1200/V-491,Cancelled,1200,(2023),(2029),2 May 2022
 Loviisa,1,PWR,VVER-440/V-213,Operational,507,1 May 1971,9 May 1977,
 Loviisa,2,PWR,VVER-440/V-213,Operational,507,1 Aug 1972,5 Jan 1981,
 Olkiluoto,1,BWR,"ASEA-III, BWR-2500",Operational,890,1 Feb 1974,10 Oct 1979,
-Olkiluoto,2,BWR,"ASEA-III, BWR-2500",Operational,890,1 Nov 1975,10 Jul 1982[67],
-Olkiluoto,3,PWR,EPR,Operational,1600,12 Aug 2005,1 May 2023[68],
+Olkiluoto,2,BWR,"ASEA-III, BWR-2500",Operational,890,1 Nov 1975,10 Jul 1982,
+Olkiluoto,3,PWR,EPR,Operational,1600,12 Aug 2005,1 May 2023,

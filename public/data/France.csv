@@ -41,7 +41,7 @@ Fessenheim,1,PWR,CP0,Shut down,880,1 Sep 1971,1 Jan 1978,22 Feb 2020
 Fessenheim,2,PWR,CP0,Shut down,880,1 Feb 1972,1 Apr 1978,29 Jun 2020
 Flamanville,1,PWR,P4 REP 1300,Operational,1330,1 Dec 1979,1 Dec 1986,
 Flamanville,2,PWR,P4 REP 1300,Operational,1330,1 May 1980,9 Mar 1987,
-Flamanville,3,PWR,EPR,Under commissioning[69],1630,3 Dec 2007,21 Dec 2024,
+Flamanville,3,PWR,EPR,Under commissioning,1630,3 Dec 2007,21 Dec 2024,
 Golfech,1,PWR,P4 REP 1300,Operational,1310,17 Nov 1982,1 Feb 1991,
 Golfech,2,PWR,P4 REP 1300,Operational,1310,1 Oct 1984,4 Mar 1994,
 Gravelines,1,PWR,CP1,Operational,910,1 Feb 1975,25 Nov 1980,
@@ -61,7 +61,7 @@ Paluel,4,PWR,P4 REP 1300,Operational,1330,1 Feb 1980,1 Jun 1986,
 Penly,1,PWR,P4 REP 1300,Operational,1330,1 Sep 1982,1 Dec 1990,
 Penly,2,PWR,P4 REP 1300,Operational,1330,1 Aug 1984,1 Nov 1992,
 Penly,3,PWR,EPR2,Planned,1670,(2024),,
-Penly,4,PWR,EPR2,Planned,1670,(2024)[70],,
+Penly,4,PWR,EPR2,Planned,1670,(2024),,
 Phénix,1,FBR,PH-250,Shut down,130,1 Nov 1968,14 Jul 1974,1 Feb 2010
 Saint-Alban,1,PWR,P4 REP 1300,Operational,1335,29 Jan 1979,1 May 1986,
 Saint-Alban,2,PWR,P4 REP 1300,Operational,1335,31 Jul 1979,1 Mar 1987,
