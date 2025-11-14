@@ -1,6 +1,6 @@
 Plant name,Unit No.,Type,Model,Status,Capacity (MW),Begin building,Commercial operation,Closed
-Atucha[4],1,PHWR,Siemens-KWU,Operation suspended (under maintenance),362,1 Jun 1968,24 Jun 1974,
-Atucha[4],2,PHWR,Siemens-KWU,Operational,745,14 Jul 1981,27 Jun 2014,
-Atucha[4],3,PWR,Hualong One,Planned[5],1200,,,
-Embalse[6],1,PHWR,CANDU-6,Operational,683,1 Apr 1974,20 Jan 1984,(2049)[7]
+Atucha,1,PHWR,Siemens-KWU,Operation suspended (under maintenance),362,1 Jun 1968,24 Jun 1974,
+Atucha,2,PHWR,Siemens-KWU,Operational,745,14 Jul 1981,27 Jun 2014,
+Atucha,3,PWR,Hualong One,Planned,1200,,,
+Embalse,1,PHWR,CANDU-6,Operational,683,1 Apr 1974,20 Jan 1984,(2049)
 CAREM,1,PWR,CAREM25,Under construction,25,8 Feb 2014,,

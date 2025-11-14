@@ -1,5 +1,5 @@
 Plant name,Unit No.,Type,Model,Status,Capacity (MW),Begin building,Commercial operation,Closed
-Barakah,1,PWR,APR-1400,Operational,1345,19 Jul 2012,6 Apr 2021[138],
-Barakah,2,PWR,APR-1400,Operational,1345,16 Apr 2013,24 Mar 2022[139],
-Barakah,3,PWR,APR-1400,Operational,1345,24 Sep 2014,24 Feb 2023[140],
-Barakah,4,PWR,APR-1400,Operational,1345,30 Jul 2015,5 Sep 2024[141],
+Barakah,1,PWR,APR-1400,Operational,1345,19 Jul 2012,6 Apr 2021,
+Barakah,2,PWR,APR-1400,Operational,1345,16 Apr 2013,24 Mar 2022,
+Barakah,3,PWR,APR-1400,Operational,1345,24 Sep 2014,24 Feb 2023,
+Barakah,4,PWR,APR-1400,Operational,1345,30 Jul 2015,5 Sep 2024,

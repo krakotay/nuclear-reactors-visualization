@@ -1,26 +1,26 @@
 Plant name,Unit No.,Type,Model,Status,Capacity (MW),Begin building,Commercial operation,Closed
 Pickering,1,PHWR,CANDU 500A,Shut down,515,Jun 1966,29 Jul 1971,1 Oct 2024
-Pickering,2,PHWR,CANDU 500A,Shut down,515,Sep 1966,30 Dec 1971,31 Dec 1997[17]
+Pickering,2,PHWR,CANDU 500A,Shut down,515,Sep 1966,30 Dec 1971,31 Dec 1997
 Pickering,3,PHWR,CANDU 500A,Shut down,515,Dec 1967,1 Jun 1972,29 Dec 1997
 Pickering,4,PHWR,CANDU 500A,Shut down,515,May 1968,17 Jun 1973,31 Dec 2024
 Pickering,5,PHWR,CANDU 500B,Operational,516,Nov 1974,10 May 1983,(2026)
 Pickering,6,PHWR,CANDU 500B,Operational,516,Oct 1975,1 Feb 1984,(2026)
 Pickering,7,PHWR,CANDU 500B,Operational,516,Mar 1976,1 Jan 1985,(2026)
-Pickering,8,PHWR,CANDU 500B,Operational,516,Sep 1976,28 Feb 1986,(2026)[18]
+Pickering,8,PHWR,CANDU 500B,Operational,516,Sep 1976,28 Feb 1986,(2026)
 Darlington,1,PHWR,CANDU 850,Operational,878,Apr 1982,14 Nov 1992,(2052)
 Darlington,2,PHWR,CANDU 850,Operational,878,Sep 1981,9 Oct 1990,(2050)
 Darlington,3,PHWR,CANDU 850,Operational,878,Sep 1984,14 Feb 1993,(2053)
 Darlington,4,PHWR,CANDU 850,Operational,878,Jul 1985,14 Jun 1993,(2053)
-Darlington,5[19],BWR,BWRX-300,Under construction,300,8 May 2025[20],(2030),
-Darlington,6[19],BWR,BWRX-300,Planned,300,,,
+Darlington,5,BWR,BWRX-300,Under construction,300,8 May 2025,(2030),
+Darlington,6,BWR,BWRX-300,Planned,300,,,
 Darlington,7,BWR,BWRX-300,Planned,300,,,
 Darlington,8,BWR,BWRX-300,Planned,300,,,
 Bruce,1,PHWR,CANDU 791,Operational,823,Jun 1971,1 Sep 1977,(2043)
-Bruce,2,PHWR,CANDU 791,Operational,823[21],Dec 1970,1 Sep 1977,(2043)
-Bruce,3,PHWR,CANDU 750A,Operational,817,Jul 1972,1 Feb 1978,(2064)[22]
+Bruce,2,PHWR,CANDU 791,Operational,823,Dec 1970,1 Sep 1977,(2043)
+Bruce,3,PHWR,CANDU 750A,Operational,817,Jul 1972,1 Feb 1978,(2064)
 Bruce,4,PHWR,CANDU 750A,Operational,817,Sep 1972,18 Jan 1979,(2064)
 Bruce,5,PHWR,CANDU 750B,Operational,817,Jun 1978,1 Mar 1985,(2064)
-Bruce,6,PHWR,CANDU 750B,Operational,880[23],Jan 1978,15 Sep 1984,(2064)
+Bruce,6,PHWR,CANDU 750B,Operational,880,Jan 1978,15 Sep 1984,(2064)
 Bruce,7,PHWR,CANDU 750B,Operational,817,May 1979,10 Apr 1986,(2064)
 Bruce,8,PHWR,CANDU 750B,Operational,817,Aug 1979,22 May 1987,(2064)
 NPD,1,PHWR,CANDU,Shut down,19,Jan 1958,4 Jun 1962,1 Aug 1987

@@ -5,7 +5,7 @@ Kozloduy,3,PWR,VVER-440/V-230,Shut down,408,1 Oct 1973,20 Jan 1981,31 Dec 2006
 Kozloduy,4,PWR,VVER-440/V-230,Shut down,408,1 Oct 1973,20 Jun 1982,31 Dec 2006
 Kozloduy,5,PWR,VVER-1000/V-320,Operational,1003,9 Jul 1980,23 Dec 1988,
 Kozloduy,6,PWR,VVER-1000/V-320,Operational,1003,1 Apr 1982,30 Dec 1993,
-Kozloduy,7,PWR,AP1000,Planned[16],1150,,(2033)[16],
-Kozloduy,8,PWR,AP1000,Planned[16],1150,,,
+Kozloduy,7,PWR,AP1000,Planned,1150,,(2033),
+Kozloduy,8,PWR,AP1000,Planned,1150,,,
 Belene,1,PWR,VVER-1000/V-320 VVER-1000/V-446B,Unfinished,953 1011,1987 2008,,
 Belene,2,PWR,VVER-1000/V-320 VVER-1000/V-446B,Unfinished,953 1011,1987 2008,,
