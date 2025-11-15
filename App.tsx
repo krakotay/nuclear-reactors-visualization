@@ -7,13 +7,15 @@ import Controls from './components/Controls';
 import ReactorChart from './components/ReactorChart';
 import { REACTOR_TYPE_COLORS, generateColorForString } from './constants';
 
+const DEFAULT_COUNTRIES = ['Russia', 'United States', 'France', 'China'];
+
 const App: React.FC = () => {
   const [allData, setAllData] = useState<ProcessedReactorData[]>([]);
   const [isLoading, setIsLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
 
   // Filter states
-  const [selectedCountries, setSelectedCountries] = useState<string[]>(['All']);
+  const [selectedCountries, setSelectedCountries] = useState<string[]>(DEFAULT_COUNTRIES);
   const [selectedType, setSelectedType] = useState<string>('All');
   const [visualizationMode, setVisualizationMode] = useState<VisualizationMode>(VisualizationMode.PER_REACTOR);
   const [coloringMode, setColoringMode] = useState<ColoringMode>(ColoringMode.TYPE);
@@ -52,16 +54,16 @@ const App: React.FC = () => {
     fetchData();
   }, []);
 
-  const countries = useMemo(() => ['All', ...Array.from(new Set(allData.map(d => d.country))).sort()], [allData]);
+  const countries = useMemo(() => Array.from(new Set(allData.map(d => d.country))).sort(), [allData]);
   const reactorTypes = useMemo(() => ['All', ...Array.from(new Set(allData.map(d => d.type))).sort()], [allData]);
 
   useEffect(() => {
-    if (countries.length <= 1) return; // only 'All' is present initially
+    if (countries.length === 0) return;
 
     setCountryColorMap(prevMap => {
         const newMap = { ...prevMap };
         countries.forEach(country => {
-            if (country !== 'All' && !newMap[country]) {
+            if (!newMap[country]) {
                 newMap[country] = generateColorForString(country);
             }
         });
@@ -85,7 +87,7 @@ const App: React.FC = () => {
 
   const filteredData = useMemo(() => {
     return allData.filter(d => {
-      const countryMatch = selectedCountries.includes('All') || selectedCountries.includes(d.country);
+      const countryMatch = selectedCountries.length === 0 || selectedCountries.includes(d.country);
       const typeMatch = selectedType === 'All' || d.type === selectedType;
       const capacityMatch = d.capacityMW >= capacityRange[0] && d.capacityMW <= capacityRange[1];
       const constructionTime = d[yAxisKey];

@@ -71,16 +71,8 @@ const ControlsComponent: React.FC<ControlsProps> = ({
 }) => {
 
   const handleCountryChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    const selectedOptions = Array.from(e.target.selectedOptions, option => option.value);
-    if (selectedOptions.length === 0) {
-      onCountriesChange(['All']);
-      return;
-    }
-    if (selectedOptions.length > 1 && selectedOptions.includes('All')) {
-      onCountriesChange(selectedOptions.filter(o => o !== 'All'));
-    } else {
-      onCountriesChange(selectedOptions);
-    }
+    const selectedOptions = Array.from(e.target.selectedOptions, option => (option as HTMLOptionElement).value);
+    onCountriesChange(selectedOptions);
   };
 
   const constructionTimeLabel = yAxisKey === 'constructionTimeYears' ? 'Construction Time (Years)' : 'Construction Time (Years/GW)';
