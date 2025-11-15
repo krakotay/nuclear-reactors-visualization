@@ -8,6 +8,12 @@ import ReactorChart from './components/ReactorChart';
 import { REACTOR_TYPE_COLORS, generateColorForString } from './constants';
 
 const DEFAULT_COUNTRIES = ['Russia', 'United States', 'France', 'China'];
+const DEFAULT_COUNTRY_COLORS: Record<string, string> = {
+  Russia: '#ef4444',
+  'United States': '#2563eb',
+  China: '#f97316',
+  France: '#60a5fa',
+};
 
 const App: React.FC = () => {
   const [allData, setAllData] = useState<ProcessedReactorData[]>([]);
@@ -18,13 +24,13 @@ const App: React.FC = () => {
   const [selectedCountries, setSelectedCountries] = useState<string[]>(DEFAULT_COUNTRIES);
   const [selectedType, setSelectedType] = useState<string>('All');
   const [visualizationMode, setVisualizationMode] = useState<VisualizationMode>(VisualizationMode.PER_REACTOR);
-  const [coloringMode, setColoringMode] = useState<ColoringMode>(ColoringMode.TYPE);
+  const [coloringMode, setColoringMode] = useState<ColoringMode>(ColoringMode.COUNTRY);
   const [capacityRange, setCapacityRange] = useState<[number, number]>([0, 2000]);
   const [constructionTimeRange, setConstructionTimeRange] = useState<[number, number]>([0, 50]);
 
   // Color state
   const [typeColorMap, setTypeColorMap] = useState<Record<string, string>>(REACTOR_TYPE_COLORS);
-  const [countryColorMap, setCountryColorMap] = useState<Record<string, string>>({});
+  const [countryColorMap, setCountryColorMap] = useState<Record<string, string>>(DEFAULT_COUNTRY_COLORS);
   const [, startTransition] = useTransition();
 
   useEffect(() => {
