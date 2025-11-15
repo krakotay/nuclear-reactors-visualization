@@ -106,7 +106,7 @@ const App: React.FC = () => {
   return (
     <div className="min-h-screen bg-gray-100 text-gray-800 flex flex-col p-4 md:p-8">
       <Header />
-      <main className="flex-grow flex flex-col lg:flex-row gap-8 mt-6">
+      <main className="flex-grow flex flex-col lg:flex-row gap-8 mt-6 min-h-0">
         <aside className="lg:w-1/4 xl:w-1/5 flex-shrink-0">
           <Controls
             countries={countries}
@@ -126,7 +126,7 @@ const App: React.FC = () => {
             yAxisKey={yAxisKey}
           />
         </aside>
-        <section className="flex-grow lg:w-3/4 xl:w-4/5 bg-white border border-gray-200 rounded-lg p-4 shadow-sm">
+        <section className="flex-grow lg:w-3/4 xl:w-4/5 bg-white border border-gray-200 rounded-lg p-4 shadow-sm flex flex-col min-h-0">
           {isLoading ? (
             <div className="flex items-center justify-center h-full">
               <p className="text-xl">Loading data...</p>

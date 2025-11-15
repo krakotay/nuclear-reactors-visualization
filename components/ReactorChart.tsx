@@ -72,26 +72,29 @@ const ReactorChart: React.FC<ReactorChartProps> = ({ data, mode, colorBy, colorM
   }, [data, colorBy]);
 
 
+  const chartWrapperClass = 'w-full h-[360px] sm:h-[420px] md:h-[520px] lg:flex-1 lg:h-auto lg:min-h-[520px]';
+
   if (data.length === 0) {
     return (
-      <div className="flex items-center justify-center h-full text-gray-500">
+      <div className={`${chartWrapperClass} flex items-center justify-center text-gray-500`}>
         <p>No data available for the selected filters.</p>
       </div>
     );
   }
 
   return (
-    <ResponsiveContainer width="100%" height="100%">
-      <ScatterChart
-        margin={{
-          top: 20,
-          right: 20,
-          bottom: 30,
-          left: 30,
-        }}
-      >
-        <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
-        <XAxis 
+    <div className={chartWrapperClass}>
+      <ResponsiveContainer width="100%" height="100%">
+        <ScatterChart
+          margin={{
+            top: 20,
+            right: 20,
+            bottom: 30,
+            left: 30,
+          }}
+        >
+          <CartesianGrid strokeDasharray="3 3" stroke="#e2e8f0" />
+          <XAxis 
             type="number" 
             dataKey="constructionStartYear" 
             name="Start Year" 
@@ -102,8 +105,8 @@ const ReactorChart: React.FC<ReactorChartProps> = ({ data, mode, colorBy, colorM
             padding={{ left: 20, right: 20 }}
             label={{ value: 'Construction Start Year', position: 'insideBottom', offset: -20, fill: '#374151' }}
             allowDecimals={false}
-        />
-        <YAxis 
+          />
+          <YAxis 
             type="number" 
             dataKey={yAxisKey} 
             name="Construction Time" 
@@ -113,27 +116,28 @@ const ReactorChart: React.FC<ReactorChartProps> = ({ data, mode, colorBy, colorM
             axisLine={{ stroke: '#cbd5e0' }}
             tickLine={{ stroke: '#cbd5e0' }}
             label={{ value: yAxisLabel, angle: -90, position: 'insideLeft', offset: -20, fill: '#374151', style: { textAnchor: 'middle' } }}
-        />
-        <ZAxis type="number" dataKey="capacityMW" range={[30, 400]} name="Capacity (MW)" />
-        <Tooltip cursor={{ strokeDasharray: '3 3' }} content={<CustomTooltip />} />
-        <Legend content={<CustomLegend onColorChange={onColorChange} />} verticalAlign="bottom" wrapperStyle={{ bottom: -10 }}/>
-        {Object.entries(dataByGroup).map(([key, groupData]) => {
-          const dataKey = `${colorBy}-${key}`;
-          return (
-            <Scatter 
-              key={dataKey} 
-              dataKey={dataKey}
-              name={key} 
-              data={groupData} 
-              fill={colorMap[key] || '#6b7280'} 
-              shape="circle"
-              stroke="#1f2937"
-              strokeWidth={0.5}
-            />
-          );
-        })}
-      </ScatterChart>
-    </ResponsiveContainer>
+          />
+          <ZAxis type="number" dataKey="capacityMW" range={[30, 400]} name="Capacity (MW)" />
+          <Tooltip cursor={{ strokeDasharray: '3 3' }} content={<CustomTooltip />} />
+          <Legend content={<CustomLegend onColorChange={onColorChange} />} verticalAlign="bottom" wrapperStyle={{ bottom: -10 }}/>
+          {Object.entries(dataByGroup).map(([key, groupData]) => {
+            const dataKey = `${colorBy}-${key}`;
+            return (
+              <Scatter 
+                key={dataKey} 
+                dataKey={dataKey}
+                name={key} 
+                data={groupData} 
+                fill={colorMap[key] || '#6b7280'} 
+                shape="circle"
+                stroke="#1f2937"
+                strokeWidth={0.5}
+              />
+            );
+          })}
+        </ScatterChart>
+      </ResponsiveContainer>
+    </div>
   );
 };
 

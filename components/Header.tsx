@@ -8,10 +8,8 @@ const Header: React.FC = () => {
         Nuclear Reactor Construction Timelines
       </h1>
       <p className="text-md text-gray-500 mt-1">
-        A visualization of global reactor construction data. 
+        A visualization of global reactor construction data. <a href="https://github.com/krakotay/nuclear-reactors-visualization"><b>github</b></a>
       </p>
-      <a href="https://github.com/krakotay/nuclear-reactors-visualization">github</a>
-
     </header>
   );
 };
