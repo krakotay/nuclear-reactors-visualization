@@ -1,4 +1,4 @@
-Plant name,Unit No.,Type,Model,Status,Capacity (MW),Begin building,Commercial operation (planned),Closed
+Plant name,Unit No.,Type,Model,Status,Capacity (MW),Begin building,Commercial operation,Closed
 Hanbit,1,PWR,WH F,Operational,960,4 Jun 1981,25 Aug 1986,
 Hanbit,2,PWR,WH F,Operational,958,10 Dec 1981,10 Jun 1987,
 Hanbit,3,PWR,OPR-1000,Operational,997,23 Dec 1989,31 Mar 1995,

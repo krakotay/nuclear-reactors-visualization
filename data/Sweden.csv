@@ -1,15 +1,15 @@
-Plant name,Unit No.,Type,Model,Status,Capacity (MW),Begin building,Commercial operation,Closed,Unnamed: 9
-Ågesta,1,PHWR,R3,Shut down/in decommissioning,10,1 Dec 1957,1 May 1964,2 Jun 1974,[a]
-Barsebäck,1,BWR,ASEA-II,Shut down/in decommissioning,600,1 Feb 1971,1 Jul 1975,30 Nov 1999,[b]
-Barsebäck,2,BWR,ASEA-II,Shut down/in decommissioning,600,1 Jan 1973,1 Jul 1977,31 May 2005,[c]
-Forsmark,1,BWR,"ASEA-III, BWR-2500",Operational,986,1 Jun 1973,10 Dec 1980,,[d]
-Forsmark,2,BWR,"ASEA-III, BWR-2500",Operational,1116,1 Jan 1975,7 Jul 1981,,[e]
-Forsmark,3,BWR,"ASEA-IV, BWR-3000",Operational,1167,1 Jan 1979,18 Aug 1985,,[f]
-Oskarshamn,1,BWR,ASEA-I,Shut down/in decommissioning,473,1 Aug 1966,6 Feb 1972,19 Jun 2017,[g]
-Oskarshamn,2,BWR,ASEA-II,Shut down/in decommissioning,638,1 Sep 1969,1 Jan 1975,22 Dec 2016,[h]
-Oskarshamn,3,BWR,"ASEA-IV, BWR-3000",Operational,1450,1 May 1980,15 Aug 1985,,[i]
-Marviken,1,BHWR,R4,Unfinished,196,1 Apr 1965,,27 May 1970,[j]
-Ringhals,1,BWR,ASEA-I,Shut down/in decommissioning,881,1 Feb 1969,1 Jan 1976,31 Dec 2020,[k]
-Ringhals,2,PWR,WH 3-loops,Shut down/in decommissioning,904,1 Oct 1970,1 May 1975,30 Dec 2019,[l]
-Ringhals,3,PWR,WH 3-loops,Operational,1062,1 Sep 1972,9 Sep 1981,,[m]
-Ringhals,4,PWR,WH 3-loops,Operational,1104,1 Nov 1973,21 Nov 1983,,[n]
+Plant name,Unit No.,Type,Model,Status,Capacity (MW),Begin building,Commercial operation,Closed
+Ågesta,1,PHWR,R3,Shut down/in decommissioning,10,1 Dec 1957,1 May 1964,2 Jun 1974
+Barsebäck,1,BWR,ASEA-II,Shut down/in decommissioning,600,1 Feb 1971,1 Jul 1975,30 Nov 1999
+Barsebäck,2,BWR,ASEA-II,Shut down/in decommissioning,600,1 Jan 1973,1 Jul 1977,31 May 2005
+Forsmark,1,BWR,"ASEA-III, BWR-2500",Operational,986,1 Jun 1973,10 Dec 1980,
+Forsmark,2,BWR,"ASEA-III, BWR-2500",Operational,1116,1 Jan 1975,7 Jul 1981,
+Forsmark,3,BWR,"ASEA-IV, BWR-3000",Operational,1167,1 Jan 1979,18 Aug 1985,
+Oskarshamn,1,BWR,ASEA-I,Shut down/in decommissioning,473,1 Aug 1966,6 Feb 1972,19 Jun 2017
+Oskarshamn,2,BWR,ASEA-II,Shut down/in decommissioning,638,1 Sep 1969,1 Jan 1975,22 Dec 2016
+Oskarshamn,3,BWR,"ASEA-IV, BWR-3000",Operational,1450,1 May 1980,15 Aug 1985,
+Marviken,1,BHWR,R4,Unfinished,196,1 Apr 1965,,27 May 1970
+Ringhals,1,BWR,ASEA-I,Shut down/in decommissioning,881,1 Feb 1969,1 Jan 1976,31 Dec 2020
+Ringhals,2,PWR,WH 3-loops,Shut down/in decommissioning,904,1 Oct 1970,1 May 1975,30 Dec 2019
+Ringhals,3,PWR,WH 3-loops,Operational,1062,1 Sep 1972,9 Sep 1981,
+Ringhals,4,PWR,WH 3-loops,Operational,1104,1 Nov 1973,21 Nov 1983,
